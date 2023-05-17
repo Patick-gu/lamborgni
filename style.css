@@ -1,0 +1,43 @@
+body{
+   
+}
+p{
+    text-align: center;
+    
+}
+p.unico{
+    font-size: 20px; 
+    
+}
+em strong{
+    color: red;
+}
+img{
+    width: 100%;
+    
+}
+
+.centro{
+    text-align: center;
+}
+ul{
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.itens{
+    font-style: italic;
+    
+}
+.beneficios{
+    background: #FFFFFF;
+}
+.principal{
+    background: #cccccc;
+    padding: 30px;
+
+}
+#ben{
+    width: 50%;
+}
