@@ -1,3 +1,59 @@
+<!--
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+         <h1><img src="imagens/logo-branco.png" ></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="coisas.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nome" class="padrao" >Nome</label >
+            <input type="text" id="Nome" class="padrao">
+
+            <label for="Email" class="padrao">Email</label>
+            <input type="text" id="Email" class="padrao">
+
+            <label for="Telefone" class="padrao">Telefone</label>
+            <input type="text" id="Telefone" class="padrao">
+
+            <label for="Descricao" class="padrao">Descricao</label >
+            <textarea id="Descricao" cols="70" rows="10" class="padrao" ></textarea>
+
+            <input type="radio" id="radio-Email" name="contatos">
+            <label for="radio-Email">Email</label>
+                <br>
+            <input type="radio" id="radio-Whatsapp" name="contatos">    
+            <label for="radio-Whatsapp">Whatsapp</label>
+                <br>
+            <input type="radio" id="radio-Telefone" name="contatos">
+            <label for="radio-Telefone">Telefone</label>
+            
+
+            <label for="H" ><input type="checkbox" id="H"> deseja </label>
+            
+
+            <input type="submit" value="enviar">
+        </form>
+    </main>
+    
+</body>
+</html>
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +68,11 @@
     <header id="cabecalho">
         <div class="estrutura">
          <h1 id="h1"><img src="imagens/logo-branco.png" ></h1>
-            <nav id="nav">
+            <nav >
                 <ul id="ul">
-                    <li class="li"><a href="index.html">Home</a></li>
-                    <li class="li"><a href="coisas.html">Produtos</a></li>
-                    <li class="li"><a href="contato.html">Contato</a></li>
+                    <li ><a href="index.html">Home</a></li>
+                    <li ><a href="produtos.html">Produtos</a></li>
+                    <li ><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -40,19 +96,24 @@
 
 
 
-            <div >
-                <p> como deseja que entremos em contato</p>
-                <label for="radio-email">email</label>
-                <input type="radio" value="email" id="radio-email" name="contato">
+            <div id="contatos">
+                <p class="paragrafo"> como deseja que entremos em contato?</p>
+                <label for="radio-email" class="L"> <input type="radio" value="email" id="radio-email" name="contato">email</label>
+                
 
-                <label for="radio-telefone">telefone</label>
-                <input type="radio" value="telefone" id="radio-telefone" name="contato">
+                <label for="radio-telefone" class="L"> <input type="radio" value="telefone" id="radio-telefone" name="contato">telefone</label>
+                
 
-                <label for="radio-whatsapp">whatsapp</label>
-                <input type="radio" value="whatsapp" id="radio-whatsapp" name="contato">
+                <label for="radio-whatsapp" class="L"> <input type="radio" value="whatsapp" id="radio-whatsapp" name="contato">whatsapp</label>    
             </div>
-            <label for="A"><input type="checkbox"> gostaria de receber novidades pelo email?</label>
-            <input type="submit" value="enviar formulario" class="input-p">
+            <p class="paragrafo">qual horario deseja ser atendido?</p>
+            <select>
+                <option>Manha</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+            <label for="A" class="paragrafo"><input type="checkbox" id="A" > gostaria de receber novidades pelo email?</label>
+            <input type="submit" value="enviar" id="enviar">
         </form>  
     </main> 
     <footer id="rodape">

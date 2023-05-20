@@ -1,6 +1,4 @@
-body{
-   
-}
+
 p{
     text-align: center;
     
@@ -40,4 +38,23 @@ ul{
 }
 #ben{
     width: 50%;
+}
+footer{
+    height: 286px;
+    background: url(imagens/bg.jpg);
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+footer p {
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 5px 0;
+}
+.fundo{
+    margin: 5px 5px;
+}
+main{
+    width: 940px;
 }
